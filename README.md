@@ -73,6 +73,8 @@ void loop() {
 }
 ```
 
+This is a simple right/left loop to test the toolchain and does not use the keypad or LCD. See [src/PS4KeypadShield.ino](src/PS4KeypadShield.ino) for more complex code that uses the keypad and LCD.
+
 #### 2.3. Upload to Arduino
 
 As the board is connected as a regular Arduino, this step is the same as other uploads: click the upload button.

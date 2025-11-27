@@ -13,23 +13,23 @@ I've done the experimentation with timing and steering adjustments. I hope these
 1. Turn on your PS4 as per normal
 1. Navigate to art of rally and start it.
 1. Start a "custom rally"
-  - location: germany
-  - stages: 1
-  - ai difficulty: master (doesn't matter)
-  - damage level: severe (important)
+    - location: germany
+    - stages: 1
+    - ai difficulty: master (doesn't matter)
+    - damage level: severe (important as needed to get terminal damage)
 1. custom rally: stage 1
-  - stage 1: gonnesweiler
-  - weather: morning (press square to get next weather until not rain or fog)
+    - stage 1: gonnesweiler
+    - weather: morning (press square to get next weather until not rain or fog)
 1. car/vehicle select
-  - group a
-  - il gorillona
+    - group a
+    - il gorillona
 1. settings > game settings
-  - stability assist: 40%
-  - counter-steer factor: 100%
-  - anti-lock braking 40%
-  - transmission automatic
+    - stability assist: 40%
+    - counter-steer factor: 100%
+    - anti-lock braking 40%
+    - transmission automatic
 1. begin stage!
-  - you can start the script on the begin stage prompt. It expects to start from restart but okay for first time.
+    - you can start the script on the begin stage prompt. It expects to start from restart but okay for first time.
 
 ## Tweaks
 

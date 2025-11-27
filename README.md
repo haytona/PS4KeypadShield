@@ -4,15 +4,7 @@ Code to use an LCDKeypadShield to control your Playstation 4 (PS4). Can be used 
 
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
-![PS4](docs/assets/Sony-PlayStation-4-wController.jpg)
-
-\+
-
-![Arduino Leonardo](docs/assets/ARDU-04-web.jpg)
-
-\=
-
-![trophy](docs/assets/Silver_trophy2.png)
+![PS4](docs/assets/Sony-PlayStation-4-wController.jpg) \+ ![Arduino Leonardo](docs/assets/ARDU-04-web.jpg) \= ![trophy](docs/assets/Silver_trophy2.png)
 
 
 ## Step-by-step

@@ -101,8 +101,9 @@ As your board is now the "____ as PS4 controller" version, it will not show up o
 Do not fear! It is still possible to upload the image, you just need to try this one easy trick:
 
 1. Make the modification in your sketch.
-2. Click the upload icon (or Sketch > Upload)
-3. While it is compiling, press the reset button on your Arduino
+    - Now is a great time to checkout the main demo [src/PS4KeypadShield.ino](src/PS4KeypadShield.ino) which provides simple navigation with up/down/left/right. Also see the other [src/examples](src/examples/) for more demonstrations.
+3. Click the upload icon (or Sketch > Upload)
+4. While it is compiling, press the reset button on your Arduino
     - On Windows with the Arduino IDE, this can be done after the "Compiling sketch..." notification changes to "Uploading..."
     - If you get an upload error try pressing the reset button earlier or later
 

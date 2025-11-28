@@ -6,7 +6,7 @@ Code to use an LCDKeypadShield to control your Playstation 4 (PS4). Can be used 
 
 This builds on the back of the [PS4Arduino](https://github.com/Flamethr0wer/PS4Arduino/) project which has a great video to explain its back story: [https://www.youtube.com/watch?v=xxhVH7Ijhp0](https://www.youtube.com/watch?v=xxhVH7Ijhp0). I used that project to script a trophy and explored making it more interactive which I've done with one of the many LCDKeypadSheilds available which is a cheap way to get a 1602 display and a few buttons.
 
-The biggest challenge I had was executing a series of steps over and over while allowing it to be cancelled by pressing a button. Turns out this is quite a jump from using `delay(1000)` everywhere. Delay is blocking so your Arduino will not respond to inputs on the buttons, the alternative is to use timers which keeps it responsive but makes it more complicated to run the script. Timers and state machines work well however it made writing the script complicated.
+The biggest challenge I had was executing a series of steps over and over while allowing it to be cancelled by pressing a button. Turns out this is quite a jump from using `delay(1000)` everywhere. Delay is blocking so your Arduino will not respond to inputs on the buttons, the alternative is to use timers which keeps it responsive but makes it more complicated to run the script. Timers and state machines work well however it made writing the script complicated. With a devious double-loop mechanism the script is all in one place even if the flow jumps between the loops.
 
 ## Step-by-step
 

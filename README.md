@@ -4,6 +4,10 @@ Code to use an LCDKeypadShield to control your Playstation 4 (PS4). Can be used 
 
 ![PS4](docs/assets/Sony-PlayStation-4-wController.jpg) \+ ![Arduino Leonardo](docs/assets/ARDU-04-web.jpg) \= ![trophy](docs/assets/Silver_trophy2.png)
 
+This builds on the back of the [PS4Arduino](https://github.com/Flamethr0wer/PS4Arduino/) project which has a great video to explain its back story: [https://www.youtube.com/watch?v=xxhVH7Ijhp0](https://www.youtube.com/watch?v=xxhVH7Ijhp0). I used that project to script a trophy and explored making it more interactive which I've done with one of the many LCDKeypadSheilds available which is a cheap way to get a 1602 display and a few buttons.
+
+The biggest challenge I had was executing a series of steps over and over while allowing it to be cancelled by pressing a button. Turns out this is quite a jump from using `delay(1000)` everywhere. Delay is blocking so your Arduino will not respond to inputs on the buttons, the alternative is to use timers which keeps it responsive but makes it more complicated to run the script. Timers and state machines work well however it made writing the script complicated.
+
 ## Step-by-step
 
 This section is a step-by-step guide for people newer to the Arduino ecosystem. It will guide you through getting the required software to flash your Arduino and control your PS4.
@@ -22,8 +26,12 @@ You'll need to assemble the following:
 
 1. Arduino IDE to edit the sketch - [official docs for download and install](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing/)
 2. PS4Arduino-AVR, follow [instructions](https://github.com/Flamethr0wer/PS4Arduino-AVR/blob/master/README.md) linked at top
-3. Install PS4Arduino library in Arduino IDE. Follow the [official library install docs](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/) to install `PS4Arduino` by Flamethrower. Make sure it is at least v1.0.1
-4. A physical Arduino board, see supported boards above
+3. Install libraries. Follow the [official library install docs](https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-installing-a-library/) to install the libraries at the top of the code.
+  - spin-timer
+  - arduino-display-lcdkeypad
+  - safestring
+  - ps4arduino 
+5. A physical Arduino board, see supported boards at [PS4Arduino](https://github.com/Flamethr0wer/PS4Arduino/)
 
 ### 2. Flash
 
@@ -136,3 +144,4 @@ To fix this, start uploading your sketch and press the reset button on the Ardui
   * More info here: https://forum.arduino.cc/t/warning-to-users-of-some-vendors-lcd-keypad-shields/94673
   * Check sketch: https://github.com/duinoWitchery/hd44780/blob/master/examples/ioClass/hd44780_pinIO/LCDKeypadCheck/LCDKeypadCheck.ino
   * If impacted, easiest option is to leave backlight on always by breaking off pin D10
+* 

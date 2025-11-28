@@ -91,6 +91,9 @@ Now is the time to take your flashed Arduino and connect to your PS4. The best w
 4. Connect Arduino with usb cable
 5. Observe your sketch running!
 
+> [!NOTE]
+> If you cannot see anything on the display and it is the first time you have used it, it is likely you need to adjust the dispay by turning the pentiometer (top left) clockwise a number of times. Do this with the unit powered on so you can see the change in display.
+
 ### 4. Iterate
 
 As your board is now the "____ as PS4 controller" version, it will not show up on the Tools > Ports menu like it used to. This is a side effect of having it appear as a PS4 Controller.

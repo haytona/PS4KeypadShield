@@ -128,3 +128,7 @@ To fix this, start uploading your sketch and press the reset button on the Ardui
 * Forum post with idea about double loop()s: https://forum.arduino.cc/t/calling-void-loop-as-a-function-inside-program/311764/10
 * Note abobut having to turn the brightness a lot!: https://github.com/neuronupheaval/arduinotimer
 * Keypad library (also in source): https://github.com/dniklaus/arduino-display-lcdkeypad
+* Bad backlight controls?
+  * More info here: https://forum.arduino.cc/t/warning-to-users-of-some-vendors-lcd-keypad-shields/94673
+  * Check sketch: https://github.com/duinoWitchery/hd44780/blob/master/examples/ioClass/hd44780_pinIO/LCDKeypadCheck/LCDKeypadCheck.ino
+  * If impacted, easiest option is to leave backlight on always by breaking off pin D10

@@ -10,6 +10,8 @@ I've done the experimentation with timing and steering adjustments. I hope these
 
 As noted on several guides, the number of stages will not increase when crashing with terminal damage. This is expected, the number of KMs travelled will increase though.
 
+See it in action: [https://www.youtube.com/shorts/VxruwvTra38](https://www.youtube.com/shorts/VxruwvTra38)
+
 ## Step by step
 
 1. Turn on your PS4 as per normal

@@ -1,8 +1,8 @@
-//// PS4KeyPad Art of Rally
+//// PS4Keypad Art of Rally
 //
 // Sketch to repeatedly crash car on Art of Rally to get trophy
 //
-// TODO: describe rally setup and driving settings
+// See README.md for rally setup and driving settings
 // Best to crash once, then use the script from there to repeat, repeat
 //
 // If the script bugs out and you're crashing into the barrier at low speed

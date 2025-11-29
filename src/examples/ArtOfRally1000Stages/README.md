@@ -8,6 +8,8 @@ From the guide: "The best stage to do this on is germany's gonnesweiler and to u
 
 I've done the experimentation with timing and steering adjustments. I hope these work for you and my settings are below to give you a fighting chance of replicating it.
 
+As noted on several guides, the number of stages will not increase when crashing with terminal damage. This is expected, the number of KMs travelled will increase though.
+
 ## Step by step
 
 1. Turn on your PS4 as per normal
@@ -29,7 +31,10 @@ I've done the experimentation with timing and steering adjustments. I hope these
     - anti-lock braking 40%
     - transmission automatic
 1. begin stage!
+    - press and hold the PS button on your regualr controller to power it off
+    - plug in your PS4Arduino
     - you can start the script on the begin stage prompt. It expects to start from restart but okay for first time.
+    - watch it auto grind for the trophy! 🏆
 
 ## Tweaks
 

@@ -1,4 +1,4 @@
-//// PS4KeyPadShield
+//// PS4KeypadShield
 
 //// INCLUDES:BEGIN
 
